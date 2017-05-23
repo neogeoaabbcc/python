@@ -1,7 +1,6 @@
 #lession_30
+#-*- UTF-8 -*-
 #一个5位数，判断它是不是回文数。即12321是回文数，个位与万位相同，十位与千位相同。
-#-*- UFT-8 -*-
-
 a = int(input("请输入一个数字：\n"))
 x = str(a)
 flag = True
@@ -13,6 +12,6 @@ for i in range(int(len(x)/2)):
 
 if flag:
     print("%d 是一个回文数！" % a)
-else:
-    print("%d 不是一个回文数！" % a)
 
+else:
+    print("%d 不是一个回文数" % a)
